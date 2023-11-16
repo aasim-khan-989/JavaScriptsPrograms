@@ -2,6 +2,7 @@
 
 const arr = new Array(1,2,3,4)
 const arr2 = [10,"aa","aaaa",'b',]
+console.log(typeof(arr),typeof(arr2))
 console.log(arr,arr2)
 
 // Methods of Arrays
@@ -26,6 +27,7 @@ console.log(subject)
 
 const newArr = [11,22,33,44,55]
 console.log(newArr.includes(33))
+console.log(newArr.includes(333))
 console.log(newArr.indexOf(-11))
 
 const newArr2 = newArr.join()
